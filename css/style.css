@@ -1,8 +1,10 @@
 * {
 	box-sizing: border-box;
+  font-family: arial,sans-serif;
+  font-size: small;
 }
 .header {
-  background-color: #f2f2f2;
+  background-color: #fafafa;
   color: #777;
 }
 
@@ -16,7 +18,9 @@
   box-shadow: 1px 2px 3px #888888;
   border: 1px solid #f2f2f2;
 }
-
+.left-space {
+  float: left;
+}
 img {
   margin-top: 10px;
   display: inline-block;
@@ -71,4 +75,30 @@ div.menu li a {
 }
 div.menu li a:hover {
   color: #222;
+}
+.body {
+  margin-left: 155px;
+}
+#title {
+  color: #1a0dab;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: arial,sans-serif;
+}
+#link {
+  color: #006621;
+  /*font-size: medium;*/
+  font-style: normal;
+}
+#date {
+  color: #808080;
+}
+p {
+  color: #545454;
+  line-height: 1.4;
+  font-size: small;
+    font-family: arial,sans-serif;
+}
+.sr0 {
+  margin-bottom: 25px;
 }
