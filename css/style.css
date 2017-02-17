@@ -33,7 +33,7 @@ img {
 #mark {
   margin-right: 200px;
 }
-li {
+.menu li, .box1 li {
   display: inline-block;
   margin-right: 5px;
   padding:
@@ -97,8 +97,30 @@ p {
   color: #545454;
   line-height: 1.4;
   font-size: small;
-    font-family: arial,sans-serif;
+  font-family: arial,sans-serif;
 }
 .sr0 {
-  margin-bottom: 25px;
+  margin-bottom: 28px;
+}
+.related p {
+  color: #222;
+  padding-bottom: 8px;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.r-box, .l-box {
+  margin-top: -15px;
+  color: #1a0dab;
+  line-height: 20px;
+  float: left;
+  margin-bottom: 15px;
+}
+.l-box {
+  margin-left: -40px;
+}
+.r-box li, .l-box li {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
